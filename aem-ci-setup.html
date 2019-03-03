@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="This is my personal site ">
+  <meta name="author" content="Velmurugan">
+
+  <title>Velmurugan</title>
+
+  <!-- Compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+  <!-- Bootstrap core CSS -->
+  <link rel="icon" href="img/profile.jpeg" type="image/gif" sizes="16x16">
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Velmurugan</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpeg" alt="Velmurugan">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div style="background-color:#33bbff;" class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Certifications</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <div class="col-md-12 blog-main">
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">CI/CD setup for AEM</h2>
+        <p class="blog-post-meta">February 26, 2019</p>
+
+        <p>This article shows configuring a CI (continuous Integration) system for AEM with
+          <ol>
+            <li>Artifactoy</li>
+            <li>Jenkins</li>
+            <li>Git</li>
+          </ol>
+          <hr>
+          <p></p>
+          <h3> project setup and git repo</h3>
+
+          <p>Create a maven project using AEM multi module archetype and push the file to a git repository</p>
+
+          <img class="card-img-top" src="img/project.png" alt="Project setup">
+
+          <h3>Jenkins setup</h3>
+          Configure the following in jenkins under <strong>Manage Jenkins > Global Tools Configuration</strong> and
+          setup a pipeline to build the project
+          <ul>
+            <li>JDK</li>
+            <li>Maven</li>
+            <li>Artifactoy</li>
+          </ul>
+          <h4>JDK Setup</h4>
+          <img class="card-img-top" src="img/jdk.png" alt="Project setup">
+          <h4>Maven Setup</h4>
+          <img class="card-img-top" src="img/maven.png" alt="Project setup">
+          <h4>Artifactory Setup</h4>
+          <p>Setup Artifactory under <strong>Manage Jenkins > Configuration</strong></p>
+          <img class="card-img-top" src="img/artifactory.png" alt="Project setup">
+
+          <h4>Setup pipeline</h4>
+          <ul>
+            <li>Create a new freestyle pipeline </li>
+            <br>
+            <img class="card-img-top" src="img/freestyle.png" alt="Project setup">
+            <li>Configure git repo in jenkins project </li>
+            <br>
+            <img class="card-img-top" src="img/git-proj.png" alt="Project setup">
+
+            <li>Configure build settings to build and deploy the project into AEM server given under configurations in POM.xml  </li>
+            <br>
+            <img class="card-img-top" src="img/build.png" alt="Project setup">
+
+            <li>Trigger the build manually by clicking <strong>build now</strong> and viola! once the build succeeds it deploys to the AEM instance </li>
+            <br>
+            <img class="card-img-top" src="img/installed.png" alt="Project setup">
+          <h5></h5>
+
+
+          </ul>
+
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>
