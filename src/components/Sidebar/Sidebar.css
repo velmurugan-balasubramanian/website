@@ -1,0 +1,86 @@
+.sidebar {
+	height: 100vh;
+	width: calc(100% / 6);
+  position: fixed;
+  background-color: #00b0f0!important;
+  /* background-color: #4fc3f7; */
+  /* border: 2px solid #4fc3f7 */
+
+}
+
+.display-picture {
+	height: calc(100vh / 4);
+	position: relative;
+	border-bottom: 0.5px solid white;
+	display: block;
+	width: 100%;
+  text-align: center;
+  min-height: 250px;
+  padding-top:15px;
+}
+
+.display-picture a {
+	height: 200px;
+	width: 200px;
+	border-radius: 1000px;
+	border: 7px solid #4fc3f7;
+	overflow: hidden;
+	display: inline-block;
+  vertical-align: middle;
+  
+}
+
+.image {
+	height: inherit;
+	width: inherit;
+}
+
+.nav-menu ul{
+  padding-top: 150px;
+  width: 100%;
+}
+
+
+
+.nav-menu ul li {
+	list-style: none;
+	text-align: center;
+  display: block;
+  width:100%
+
+}
+
+.nav-menu ul li a {
+  text-transform: uppercase;
+    font-size: .94rem;
+    letter-spacing: 1px;
+    display: block;
+    padding: 5px 0;
+    color: white;
+    transition: all .4s ease-out;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+/* .nav-menu ul li a:hover {
+  background: #f8df00;
+  width: 100%;
+  visibility: visible;
+  opacity: 0.5;
+} */
+
+.nav-menu a:hover{
+  background: #f8df00;
+  border-color: #292929;
+  color: #292929;
+  opacity: 0.5;
+}
+.nav-menu a:active,
+.nav-menu a.active {
+  background: #f8df00;
+  border-color: #292929;
+  color: #292929;
+}
+
+

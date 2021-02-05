@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+.App{
+  font-size: 18px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sticky_sidebar{
+  /* background-color: #2196f3;
+  background-color: #4fc3f7; */
+  background-color:#00b0f0;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.content{
+  font-size: 20pt;
+  background-color: #EBEBEB;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.content ul{
+  padding: 0px 100px
+}
+.content ul li::before{
+  content:none;
+}
+
+.row{
+  margin-bottom: 0px
+}
+
+.row::after{
+  display: inline;
+}
+
+.row .col{
+  min-height: 100vh;
+  padding: 0;
+}
+
+.home{
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto;
+}
+
+.column a {
+  color:#292929
+}
+.column a:hover {
+  color:#70bfe6
+}
+
+.column a:hover .card {
+  border: 2px solid #4fc3f7;
+}
+
+/* Clear floats after the columns */
+.content-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card-content{
+  font-size: 15pt;
+  height:auto;
+}
+
+nav {
+  color: inherit;
+  background-color: inherit;
+  border: none;
+  box-shadow:none;
+}
+
+nav ul {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container .pagination-row{
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  .content ul{
+    padding: 0px 0px
   }
-  to {
-    transform: rotate(360deg);
+
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: auto;
   }
+  
+  /* Clear floats after the columns */
+  .content-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
 }
