@@ -1,11 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import {  withStyles } from '@material-ui/core/styles';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import Icon from '@material-ui/core/Icon'
 
 
-const BorderLinearProgress = withStyles((theme) => ({
+const BorderLinearProgress = withStyles(() => ({
   root: {
     height: 10,
     borderRadius: 5,
@@ -49,9 +48,6 @@ const Skills = () => {
 };
 
 
-Skills.propTypes = {
-
-};
 
 
 export default Skills;

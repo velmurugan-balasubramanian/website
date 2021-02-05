@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './Blogs.css';
 import dp from '../../assets/blog.jpg';
 import Icon from '@material-ui/core/Icon'
@@ -13,7 +12,7 @@ const Blogs = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} />
+                <img src={dp} alt="" />
               </div>
               <div className="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.
@@ -27,7 +26,7 @@ const Blogs = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} />
+                <img src={dp} alt="" />
               </div>
               <div className="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.
@@ -41,7 +40,7 @@ const Blogs = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} />
+                <img src={dp} alt="" />
               </div>
               <div className="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.
@@ -55,7 +54,7 @@ const Blogs = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} />
+                <img src={dp} alt="" />
               </div>
               <div className="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.
@@ -71,11 +70,6 @@ const Blogs = () => {
       </div>
     </div>
   );
-};
-
-
-Blogs.propTypes = {
-
 };
 
 

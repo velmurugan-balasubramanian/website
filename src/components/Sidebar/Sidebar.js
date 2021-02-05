@@ -1,8 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {NavLink} from 'react-router-dom'
 import './Sidebar.css'
-import { Button } from 'primereact/button';
 import dp from '../../assets/dp.jpg';
 
 const Sidebar = () => {
@@ -11,7 +9,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="display-picture">
         <a href="/">
-            <img className="image" src={dp}></img>
+            <img className="image" src={dp} alt=""></img>
         </a>   
       </div>
       <div className="nav-menu">
@@ -42,11 +40,6 @@ const Sidebar = () => {
 
     </div>
   );
-};
-
-
-Sidebar.propTypes = {
-
 };
 
 

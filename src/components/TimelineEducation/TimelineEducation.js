@@ -1,17 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
-import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-import FastfoodIcon from '@material-ui/icons/Fastfood';
-import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Icon from '@material-ui/core/Icon'
@@ -43,22 +37,22 @@ const TimelineEducation = () => {
             <h6>Computer Science Engineering</h6>
             <h6><strong>Subjects covered</strong></h6>
             <Typography>
-            <i class="fas fa-check"></i>  Software Engineering
+            <i className="fas fa-check"></i>  Software Engineering
             </Typography> 
             <Typography>
-            <i class="fas fa-check"></i>  Software Project Management
+            <i className="fas fa-check"></i>  Software Project Management
             </Typography> 
             <Typography>
-            <i class="fas fa-check"></i>  User Interface Design
+            <i className="fas fa-check"></i>  User Interface Design
             </Typography> 
             <Typography>
-            <i class="fas fa-check"></i>  Object Oriented design and Analysis
+            <i className="fas fa-check"></i>  Object Oriented design and Analysis
             </Typography> 
             <Typography>
-            <i class="fas fa-check"></i>  Object Oriented Programming
+            <i className="fas fa-check"></i>  Object Oriented Programming
             </Typography> 
             <Typography>
-            <i class="fas fa-check"></i>  Advanced Mathematics
+            <i className="fas fa-check"></i>  Advanced Mathematics
             </Typography> 
           </Paper>
         </TimelineContent>
@@ -75,27 +69,22 @@ const TimelineEducation = () => {
             <h6>Computer Science</h6>
             <h6><strong>Subjects covered</strong></h6>
             <Typography>
-            <i class="fas fa-check"></i>  C programming
+            <i className="fas fa-check"></i>  C programming
             </Typography> 
             <Typography>
-            <i class="fas fa-check"></i>  HTML and CSS
+            <i className="fas fa-check"></i>  HTML and CSS
             </Typography> 
             <Typography>
-            <i class="fas fa-check"></i>  JavaScript
+            <i className="fas fa-check"></i>  JavaScript
             </Typography> 
             <Typography>
-            <i class="fas fa-check"></i> Mathematics
+            <i className="fas fa-check"></i> Mathematics
             </Typography> 
           </Paper>
         </TimelineContent>
       </TimelineItem>
     </Timeline>
   );
-};
-
-
-TimelineEducation.propTypes = {
-
 };
 
 

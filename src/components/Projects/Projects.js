@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import dp from '../../assets/blog.jpg';
 import Icon from '@material-ui/core/Icon'
 import Pagination from '@material-ui/lab/Pagination';
@@ -15,7 +14,7 @@ const Projects = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} />
+                <img src={dp} alt="" />
               </div>
               <div className="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.
@@ -29,7 +28,7 @@ const Projects = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} />
+                <img src={dp} alt="" />
               </div>
               <div className="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.
@@ -43,7 +42,7 @@ const Projects = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} />
+                <img src={dp} alt="" />
               </div>
               <div className="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.
@@ -57,7 +56,7 @@ const Projects = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} />
+                <img src={dp} alt="" />
               </div>
               <div className="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.
@@ -76,9 +75,6 @@ const Projects = () => {
 };
 
 
-Projects.propTypes = {
-
-};
 
 
 export default Projects;
