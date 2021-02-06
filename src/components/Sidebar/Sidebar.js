@@ -6,6 +6,7 @@ import dp from '../../assets/dp.jpg';
 const Sidebar = () => {
 
   return (
+    <>
     <div className="sidebar">
       <div className="display-picture">
         <a href="/">
@@ -39,6 +40,7 @@ const Sidebar = () => {
       </div>
 
     </div>
+    </>
   );
 };
 

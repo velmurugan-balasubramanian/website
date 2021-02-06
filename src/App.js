@@ -8,40 +8,45 @@ import Skills from './components/Skills/Skills'
 import Projects from './components/Projects/Projects'
 import About from './components/About/About'
 import Blogs from './components/Blogs/Blogs'
+import Drawer from './components/drawer/drawer'
 
 function App() {
+
 
   return (
     <Router>
       <div className="row">
-        <div className="col l2 hide-on-small-only sticky_sidebar">
+        <div className="show-on-small hide-on-large-only" >
+          <Drawer />
+        </div>
+        <div className="col l2 hide-on-med-and-down sticky_sidebar">
           <Sidebar />
         </div>
         <div className="col l10 s12 valign-wrapper content">
-            <Switch>
-              <Route path='/' exact>
-                <Home />
-              </Route>
-              <Route path='/about' exact>
-                <About />
-              </Route>
-              <Route path='/skills' exact>
+          <Switch>
+            <Route path='/' exact>
+              <Home />
+            </Route>
+            <Route path='/about' exact>
+              <About />
+            </Route>
+            <Route path='/skills' exact>
               <Skills />
-              </Route>
-              <Route path='/education' exact>
+            </Route>
+            <Route path='/education' exact>
               <TimelineEducation />
-              </Route>
-              <Route path='/work' exact>
+            </Route>
+            <Route path='/work' exact>
               <TimelineWork />
-              </Route>
-              <Route path='/projects' exact>
+            </Route>
+            <Route path='/projects' exact>
               <Projects />
-              </Route>
-              <Route path='/blog' exact>
+            </Route>
+            <Route path='/blog' exact>
               <Blogs />
-              </Route>
-              <Redirect to="/" />
-            </Switch>
+            </Route>
+            <Redirect to="/" />
+          </Switch>
         </div>
       </div>
     </Router>
