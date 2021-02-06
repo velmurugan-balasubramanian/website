@@ -8,6 +8,7 @@
   height: 100vh;
 }
 .content{
+  padding-top: 50px !important;
   font-size: 20pt;
   background-color: #EBEBEB;
   min-height: 100vh;
@@ -82,8 +83,17 @@ nav ul {
 .container .pagination-row{
   width: 100%;
 }
+.padding-left {
+  padding-left: 30px;
+}
+.content{
+  padding-top: 500px;
+}
 
 @media only screen and (max-width: 600px) {
+
+
+
   .content ul{
     padding: 0px 0px
   }

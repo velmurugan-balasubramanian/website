@@ -11,6 +11,7 @@ const About = () => {
           <img src={about} alt="" className="responsive-image" />
         </div>
         <div className="column">
+          Hey there :)
         </div>
       </div>
     </div>

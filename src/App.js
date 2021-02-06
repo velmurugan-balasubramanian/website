@@ -50,16 +50,6 @@ function App() {
         </div>
       </div>
     </Router>
-
-    // <div className="row">
-    //   <div className="col s2  sticky_sidebar">
-    //    <Sidebar />
-    //   </div>
-    //   <div className="col s10 content">
-    //   <TimelineEducation />
-    //   <TimelineWork />
-    //   </div>
-    // </div>
   );
 }
 
