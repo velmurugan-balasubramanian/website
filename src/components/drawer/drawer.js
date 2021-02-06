@@ -13,7 +13,10 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
-import { NavLink } from 'react-router-dom'
+import ListItemText from '@material-ui/core/ListItemText';
+import { NavLink } from 'react-router-dom';
+import dp from '../../assets/dp.jpg';
+
 
 
 const drawerWidth = 240;
@@ -136,28 +139,50 @@ export default function PersistentDrawerLeft() {
           </IconButton>
         </div>
         <Divider />
-        <List>
-          <ListItem onClick={handleDrawerClose} button key="Home">
-            <NavLink to="/" exact>Home</NavLink>
-          </ListItem>
-          <ListItem onClick={handleDrawerClose} button key="About">
-            <NavLink to="/about" >About</NavLink>
-          </ListItem>
-          <ListItem onClick={handleDrawerClose} button key="Skills">
-            <NavLink to="/skills" >Skills</NavLink>
-          </ListItem>
-          <ListItem onClick={handleDrawerClose} button key="Education">
-            <NavLink to="/education" >Education</NavLink>
-          </ListItem>
-          <ListItem onClick={handleDrawerClose} button key="Work">
-            <NavLink to="/work" >Work</NavLink>
-          </ListItem>
-          <ListItem onClick={handleDrawerClose} button key="Projects">
-            <NavLink to="/projects" >Projects</NavLink>
-          </ListItem>
-          <ListItem onClick={handleDrawerClose} button key="Blog">
-            <NavLink to="/blog" >Blog</NavLink>
-          </ListItem>
+        <div className="display-picture">
+          <a href="/">
+            <img className="image" src={dp} alt=""></img>
+          </a>
+        </div>
+        <Divider />
+        <List className="nav-menu">
+
+          <NavLink onClick={handleDrawerClose} to="/" exact>
+            <ListItem button key="Home">
+              <ListItemText primary="Home" />
+            </ListItem>
+          </NavLink>
+
+          <NavLink onClick={handleDrawerClose} to="/about" >
+            <ListItem button key="About">
+              <ListItemText primary="About" />
+            </ListItem>
+          </NavLink>
+          <NavLink onClick={handleDrawerClose} to="/skills" >
+            <ListItem button key="Skills">
+              <ListItemText primary="Skills" />
+            </ListItem>
+          </NavLink>
+          <NavLink onClick={handleDrawerClose} to="/education" >
+            <ListItem button key="Education">
+              <ListItemText primary="Education" />
+            </ListItem>
+          </NavLink>
+          <NavLink onClick={handleDrawerClose} to="/work" >
+            <ListItem button key="Work">
+              <ListItemText primary="Work" />
+            </ListItem>
+          </NavLink>
+          <NavLink onClick={handleDrawerClose} to="/projects" >
+            <ListItem button key="Projects">
+              <ListItemText primary="Projects" />
+            </ListItem>
+          </NavLink>
+          <NavLink onClick={handleDrawerClose} to="/blog" >
+            <ListItem button key="Blog">
+              <ListItemText primary="Blog" />
+            </ListItem>
+          </NavLink>
         </List>
         <Divider />
       </Drawer>

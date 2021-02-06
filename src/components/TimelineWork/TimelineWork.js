@@ -29,7 +29,7 @@ const TimelineWork = () => {
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot color="primary" variant="outlined">
-            <LaptopMacIcon color="success"  style={{ color: green[500] }}/>
+            <LaptopMacIcon style={{ color: green[500] }}/>
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
