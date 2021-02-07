@@ -92,8 +92,10 @@ nav ul {
 
 @media only screen and (max-width: 600px) {
 
-
-
+  .content{
+    padding-left: 10px !important;
+  }
+  
   .content ul{
     padding: 0px 0px
   }

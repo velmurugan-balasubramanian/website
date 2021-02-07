@@ -68,7 +68,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="pagination-row center-align">
-          <Pagination count={10} className="" color="primary"  size="large"/>
+          <Pagination count={1} className="" color="primary"  size="large"/>
       </div>
     </div>
   );
