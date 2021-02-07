@@ -35,13 +35,29 @@ const TimelineWork = () => {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
-              Eat
-            </Typography>
-            <Typography variant="h6" component="ul">
-              Eat
-            </Typography>
-            <Typography>Because you need strength</Typography>
+            <h5>Developer Relations Engineer</h5>
+            <h6>Jun 2019 - <strong>Present</strong></h6>
+            <h6> <a href="https://www.linkedin.com/company/freshworks-inc" target="_blank" rel="noreferrer"> Freshworks Inc </a></h6>
+            <h6><strong>Roles and Responsibilites</strong></h6>
+            <Typography>
+            <i className="fas fa-check"></i>  Develop and maintain CLIs and SDKs.
+            </Typography> 
+            <Typography>
+            <i className="fas fa-check"></i> 	Identify and create new developer tools as per the community needs
+            </Typography> 
+            <Typography>
+            <i className="fas fa-check"></i>  Administer and actively maintain the <a href="https://community.developers.freshworks.com/u/velmurugan/" target="_blank" rel="noreferrer">developer community</a> 
+            </Typography> 
+            <Typography>
+            <i className="fas fa-check"></i> Maintainer of open source of <a href="https://crayons.freshworks.com/" target="_blank" rel="noreferrer">Crayons</a>, An Open source Web component library
+            </Typography> 
+            <h6><strong>Accomplishments</strong></h6>
+            <Typography>
+            <i className="fas fa-check"></i>  Object Oriented Programming
+            </Typography> 
+            <Typography>
+            <i className="fas fa-check"></i>  Advanced Mathematics
+            </Typography> 
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -53,10 +69,26 @@ const TimelineWork = () => {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
-              Repeat
-            </Typography>
-            <Typography>Because this is the life you love!</Typography>
+            <h5>Programmer Analyst</h5>
+            <h6>Jan 2016 - April 2019</h6>
+            <h6><a href="https://www.linkedin.com/company/cognizant/" target="_blank" rel="noreferrer" >Cognizant Technology Solutions </a></h6>
+            <h6><strong>Roles and Responsibilites</strong></h6>
+            <Typography>
+            <i className="fas fa-check"></i> Develop and maintain backend services and API for Adobe CMS
+            </Typography> 
+            <Typography>
+            <i className="fas fa-check"></i> Part of a technical committee responsible for testing, implementation and advocacy of new technologies to the team  
+            </Typography> 
+            <Typography>
+            <i className="fas fa-check"></i>  Design and plan component and API development. 
+            </Typography> 
+            <h6><strong>Accomplishments</strong></h6>
+            <Typography>
+            <i className="fas fa-check"></i> Led a team of 5 on Adobe platform upgrade 
+            </Typography> 
+            <Typography>
+            <i className="fas fa-check"></i> Integrated a complete devops solution into the existing CMS pipeline
+            </Typography> 
           </Paper>
         </TimelineContent>
       </TimelineItem>
