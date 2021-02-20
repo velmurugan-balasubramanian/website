@@ -1,6 +1,7 @@
 import React from 'react';
 import './Blogs.css';
-import dp from '../../assets/blog.jpg';
+// import dp from '../../assets/img.png';
+import skills from '../../assets/Skills.png'
 import Icon from '@material-ui/core/Icon'
 import Pagination from '@material-ui/lab/Pagination';
 
@@ -12,11 +13,10 @@ const Blogs = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} alt="" />
+                <img src={skills} alt="" />
               </div>
               <div className="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+                <p>.</p>
                 <Icon className="fab fa-node-js" style={{ fontSize: 30 }} />
               </div>
             </div>
@@ -26,11 +26,10 @@ const Blogs = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} alt="" />
+                <img src={skills} alt=""/>
               </div>
               <div className="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+                <p></p>
                 <Icon className="fab fa-node-js" style={{ fontSize: 30 }} />
               </div>
             </div>
@@ -40,11 +39,10 @@ const Blogs = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} alt="" />
+                <img src={skills} alt="" />
               </div>
               <div className="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+                <p></p>
                 <Icon className="fab fa-node-js" style={{ fontSize: 30 }} />
               </div>
             </div>
@@ -54,11 +52,10 @@ const Blogs = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} alt="" />
+                <img src={skills} alt="" />
               </div>
               <div className="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+                <p></p>
                 <Icon className="fab fa-node-js" style={{ fontSize: 30 }} />
               </div>
             </div>
