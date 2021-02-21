@@ -1,6 +1,8 @@
 import React from 'react';
 import './Blogs.css';
 import skills from '../../assets/Skills.png'
+import github from '../../assets/github.png'
+
 import Pagination from '@material-ui/lab/Pagination';
 import Chip from '@material-ui/core/Chip';
 
@@ -83,7 +85,7 @@ const Blogs = () => {
           <a href="https://developers.freshworks.com/tutorials/codelabs/freshdesk-advanced/index.html" target="_blank" rel="noreferrer">
             <div className="card medium">
               <div className="card-image">
-                <img src={skills} alt="" />
+                <img src={github} alt="" />
               </div>
               <div className="card-content">
                 <p>
@@ -117,27 +119,6 @@ const Blogs = () => {
                 </p>
                 <br />
                 <h6>Introduction To Unit Tests For Serverless Apps</h6>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div className="column">
-          <a href="https://developers.freshworks.com/tutorials/codelabs/freshdesk-advanced/index.html" target="_blank" rel="noreferrer">
-            <div className="card medium">
-              <div className="card-image">
-                <img src={skills} alt="" />
-              </div>
-              <div className="card-content">
-                <p>
-                    <Chip
-                      variant="outlined"
-                      size="small"
-                      style={{ backgroundColor: '#f8df00' }}
-                      label="Tutorial"
-                    />
-                </p>
-                <br />
-                <h6>Simple GitHub integration using OAuth, Data Storage, Notifications</h6>
               </div>
             </div>
           </a>
