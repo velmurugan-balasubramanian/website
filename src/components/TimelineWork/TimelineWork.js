@@ -43,20 +43,23 @@ const TimelineWork = () => {
             <i className="fas fa-check"></i>  Develop and maintain CLIs and SDKs.
             </Typography> 
             <Typography>
-            <i className="fas fa-check"></i> 	Identify and create new developer tools as per the community needs
+            <i className="fas fa-check"></i> 	Identify and create new developer tools based on the community needs
             </Typography> 
             <Typography>
-            <i className="fas fa-check"></i>  Administer and actively maintain the <a href="https://community.developers.freshworks.com/u/velmurugan/" target="_blank" rel="noreferrer">developer community</a> 
+            <i className="fas fa-check"></i>  Actively Moderate the <a href="https://community.developers.freshworks.com/u/velmurugan/" target="_blank" rel="noreferrer">developer community</a> 
             </Typography> 
             <Typography>
-            <i className="fas fa-check"></i> Maintainer of open source of <a href="https://crayons.freshworks.com/" target="_blank" rel="noreferrer">Crayons</a>, An Open source Web component library
+            <i className="fas fa-check"></i> Maintain Open Source respositories
+            </Typography> 
+            <Typography>
+            <i className="fas fa-check"></i> Plan and drive Early Access Programs for significant platform features. 
             </Typography> 
             <h6><strong>Accomplishments</strong></h6>
             <Typography>
-            <i className="fas fa-check"></i>  Object Oriented Programming
+            <i className="fas fa-check"></i>Created a metrics collection tool to collect and analyse Developer Realtion metrics across platforms like Discourse, Github, Newsletter, and developer portal.
             </Typography> 
             <Typography>
-            <i className="fas fa-check"></i>  Advanced Mathematics
+            <i className="fas fa-check"></i> Planned and implemented Training Framework to onboard new developers of different skillset and experience levels to the platform. 
             </Typography> 
           </Paper>
         </TimelineContent>
