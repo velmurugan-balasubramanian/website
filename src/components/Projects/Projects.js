@@ -1,5 +1,6 @@
 import React from 'react';
 import dp from '../../assets/blog.jpg';
+import slack from '../../assets/slack-dark.png';
 import Icon from '@material-ui/core/Icon'
 import Pagination from '@material-ui/lab/Pagination';
 
@@ -14,11 +15,10 @@ const Projects = () => {
           <a href="/education" >
             <div className="card medium">
               <div className="card-image">
-                <img src={dp} alt="" />
+                <img src={slack} alt="" width="80" height="240" />
               </div>
               <div className="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+                <p>Automation assignment for </p>
                 <Icon className="fab fa-node-js" style={{ fontSize: 30 }} />
               </div>
             </div>
