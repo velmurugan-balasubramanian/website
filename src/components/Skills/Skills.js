@@ -36,7 +36,7 @@ const Skills = () => {
         <p>
           <Icon className="fab fa-node" style={{ color: '#43853d', fontSize: 35, width: '50px' }} />
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={80} />
       </div>
       <div className="column">
         <p>
@@ -44,7 +44,7 @@ const Skills = () => {
             <Icon className="fab fa-react" style={{ color: '#61dafb', fontSize: 35, width: '50px' }} />
           </span>
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={60} />
       </div>
       <div className="column">
         <p>
@@ -52,7 +52,7 @@ const Skills = () => {
             <Icon className="fab fa-angular" style={{ color: 'red', fontSize: 35 }} />
           </span>
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={40} />
       </div>
       <div className="column">
         <p>
@@ -60,13 +60,13 @@ const Skills = () => {
             <Icon className="fab fa-vuejs" style={{ color: '#42b983', fontSize: 35 }} />
           </span>
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={30} />
       </div>
       <div className="column">
         <p>
           <Icon className="fab fa-java" style={{ color: '#f06529', fontSize: 35, width: '50px' }} />
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={50} />
       </div>
       <div className="column">
         <p>
@@ -82,19 +82,19 @@ const Skills = () => {
             <Icon className="fab fa-jenkins" style={{ fontSize: 35 }} />
           </span>
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={65} />
       </div>
       <div className="column">
         <p>
           <Icon className="fab fa-docker" style={{ color: '#007bff', fontSize: 35, width: '50px' }} />
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={50} />
       </div>
       <div className="column">
         <p>
           <Icon className="fab fa-aws" style={{ color: '#f06529', fontSize: 35, width: '50px' }} />
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={50} />
       </div>
       <div className="column">
         <p>
@@ -102,7 +102,7 @@ const Skills = () => {
             <img src={mongo} alt="" style={{ color: '#f06529', fontSize: 35, width: '50px', height: '30px' }} />
           </span>
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={60} />
       </div>
       <div className="column">
         <p>
@@ -110,7 +110,7 @@ const Skills = () => {
             <img src={postgres} alt="" style={{ color: '#f06529', width: '50px', height: '30px' }} />
           </span>
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={60} />
       </div>
       <div className="column">
         <p>
@@ -118,7 +118,7 @@ const Skills = () => {
             <img src={heroku} alt="" style={{ color: '#f06529', width: '50px', height: '30px' }} />
           </span>
         </p>
-        <BorderLinearProgress variant="determinate" value={75} />
+        <BorderLinearProgress variant="determinate" value={50} />
       </div>
     </div>
   );
